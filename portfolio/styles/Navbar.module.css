@@ -1,0 +1,14 @@
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  color: rgba(0, 0, 0, 0.31);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item {
+  font-size: 2rem;
+}
+.item :link{
+  margin: 20px;
+}

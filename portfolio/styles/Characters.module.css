@@ -1,0 +1,17 @@
+
+.characterLink{
+    color: rgba(0, 0, 0, 0.403);
+    height: 4rem;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    cursor: pointer;
+}
+.characterLink:hover::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 1rem;
+    background-color: rgb(83, 83, 89);
+}
